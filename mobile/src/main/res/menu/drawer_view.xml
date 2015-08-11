@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_group_groups"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/group_all"
+            android:checked="true"
+            android:orderInCategory="0"
+            android:title="All" />
+        <item
+            android:id="@+id/group_local"
+            android:orderInCategory="1"
+            android:title="Local" />
+    </group>
+
+    <group
+        android:id="@+id/menu_group_options">
+        <item
+            android:id="@+id/parse_groups_download"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:orderInCategory="100"
+            android:title="Choose groups" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:orderInCategory="101"
+            android:title="Settings" />
+    </group>
+</menu>
